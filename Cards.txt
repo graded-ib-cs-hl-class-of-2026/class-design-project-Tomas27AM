@@ -1,0 +1,2 @@
+logic gate
+a simple circuit made out of a few transistors that performs a basic logical task
