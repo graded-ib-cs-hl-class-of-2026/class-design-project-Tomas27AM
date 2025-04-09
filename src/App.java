@@ -33,11 +33,12 @@ public class App {
     }
 
     public void showSet() {
+        for(int i =0; i < deck.size(); i++){
         printer.output(deck.readWord(0));
         printer.input();
         printer.output(deck.readDefinition(0));
     }
-
+    }
 
 
     public static void main(String[] args) throws Exception {

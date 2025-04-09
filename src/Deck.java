@@ -25,4 +25,7 @@ public class Deck {
         return definitions[i];
 
     }
+    public int size() {
+        return Math.min(numWords, numDefinitions);
+    }
 }
