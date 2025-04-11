@@ -5,19 +5,21 @@ public class App {
 
     public void start() {
 
-        userChooseSet();
         getSetFromFile();
         showSet();
-
+        shuffleDeck ();
     }
 
-    public void userChooseSet() {
+    public void shuffleDeck (){
 
+        
     }
 
     public void getSetFromFile() {
+       printer.output ("write CS.txt for computer science Flashcards or PE.txt for Sports Flashcards");
+       String filename = printer.input();
         try {
-            printer.openFile("Cards.txt");
+            printer.openFile(filename);
         }catch (Exception e) {
             printer.output (e.toString());
             return;
@@ -30,13 +32,22 @@ public class App {
                 deck.addDefinitions(line);
             }
         }
+        printer.closeFile();
     }
 
     public void showSet() {
+        try {
+            printer.openFile("record.txt");
+        }catch (Exception e) {
+            printer.output (e.toString());
+            return;
+        }
         for(int i =0; i < deck.size(); i++){
-        printer.output(deck.readWord(0));
+        printer.output("\n"+ deck.readWord(i));
+        printer.fileOutput(deck.readWord(i));
         printer.input();
-        printer.output(deck.readDefinition(0));
+        printer.output(deck.readDefinition(i));
+        printer.input();
     }
     }
 
