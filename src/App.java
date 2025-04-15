@@ -6,14 +6,12 @@ public class App {
     public void start() {
 
         getSetFromFile();
+        deck.shuffle();
         showSet();
-        shuffleDeck ();
-    }
-
-    public void shuffleDeck (){
-
         
     }
+
+   
 
     public void getSetFromFile() {
        printer.output ("write CS.txt for computer science Flashcards or PE.txt for Sports Flashcards");

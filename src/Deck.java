@@ -28,4 +28,17 @@ public class Deck {
     public int size() {
         return Math.min(numWords, numDefinitions);
     }
+
+    public void shuffle (){
+        for (int i = numWords - 1; i >= 1; i--) {
+        int j = (int) Math.random() * (i +1);
+        String temp = words[i];
+           words[i] = words[j];
+           words[j] = temp;
+
+            temp = definitions[i];
+           definitions[i] = definitions[j];
+           definitions[j] = temp;
+        }
+    }
 }
