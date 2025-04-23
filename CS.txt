@@ -1,0 +1,41 @@
+Router
+A device that forwards data packets between computer networks, directing traffic on the internet.
+Node
+Any device connected to a network, such as a computer, printer, or router.
+LAN (Local Area Network)
+A network that connects computers within a limited area like a home, school, or office building.
+WAN (Wide Area Network)
+A network that spans a large geographical area, typically consisting of multiple LANs connected together.
+IP Address
+A unique numerical identifier assigned to each device on a network to identify and locate it.
+MAC Address
+A hardware address that uniquely identifies each device on a network, assigned to network interfaces.
+Switch
+A device that connects devices within a LAN and uses MAC addresses to forward data to the correct destination.
+Modem
+A device that modulates and demodulates signals for communication over telephone or cable lines.
+Firewall
+A network security system that monitors and controls incoming and outgoing network traffic based on security rules.
+Bandwidth
+The maximum rate of data transfer across a given path, often measured in bits per second (bps).
+Packet
+A small unit of data transmitted over a network, which includes both payload and control information.
+Protocol
+A set of rules governing the format and transmission of data between devices in a network.
+DNS (Domain Name System)
+Translates human-readable domain names (like google.com) into IP addresses used by computers.
+Ethernet
+A common method of networking computers in a LAN using wired connections.
+Wi-Fi
+A wireless networking technology that allows devices to communicate over a wireless signal.
+VPN (Virtual Private Network)
+A secure tunnel over the internet that allows private data to be sent safely and anonymously.
+Client
+A device or program that requests services or resources from a server.
+Server
+A computer or program that provides services, resources, or data to clients over a network.
+Topology
+The physical or logical layout of a network, such as star, mesh, or bus.
+Latency
+The time it takes for a data packet to travel from source to destination across a network.
+
